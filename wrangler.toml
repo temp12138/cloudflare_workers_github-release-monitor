@@ -7,8 +7,8 @@ compatibility_date = "2025-01-01"
 # 2) 将下方 database_id 替换为你自己的数据库 ID（Dashbord -> D1 -> 数据库 -> 概览）
 [[d1_databases]]
 binding = "DB"
-database_name = "github-release-monitor"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_name = "cloudflare_workers_github-release-monitor"
+database_id = "20374409-fc64-44a2-aa47-1d4df2002a4e"
 
 # ---------- 定时触发 ----------
 # 每 5 分钟唤醒一次；Worker 内部会按设置控制检查节奏
